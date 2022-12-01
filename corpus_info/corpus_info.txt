@@ -1,0 +1,8 @@
+Número de caracteres: 12098427   
+Número de linhas: 2095   
+Número de palavras: 2344418   
+Número de palavras diferentes: 105368 
+Quociente entre o total de palavras diferentes e o total de palavras: 0.0449442 
+Número de frases: 90339 
+Número de frases diferentes: 81632 
+Quociente entre o total de frases diferentes e o total de frases: 0.903619

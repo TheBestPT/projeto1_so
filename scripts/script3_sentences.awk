@@ -1,6 +1,6 @@
 BEGIN{
   #Caracteres que separam as palavras
-  RS=" [.;?] ";
+  RS=" [.!?] ";
   sentenceCount = 0;
 }
 
