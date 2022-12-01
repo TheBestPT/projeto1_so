@@ -5,11 +5,14 @@ BEGIN{
   limit = 1;
 }
 
-( $0 !~ /\-\-/) && ( $0 !~ /^[@]+$/){
+( $0 !~ /\-\-/) && ( $0 !~ /^[@]+$/) && $0 !~ (/\^'+*-~:!#$%&@()\[\]=<>«»ºª_€\$/) && $0 !~ (/[0-9]/){
+
   #limitar a quantidade de palavras
   if(limit++ == 250000) exit 1;
+
   #colocar a palavra em letras pequenas
   palavra = tolower($0);
+
   #Verificar se a palavra se ja existe no array se existir incrementar mais um ocorrência senão colocar a palavra no array com uma ocorrência
   if( palavra in tabelaOcorrencias ){
     tabelaOcorrencias[ palavra ] ++;
