@@ -19,7 +19,7 @@ BEGIN{
 }
 
 END{
-  print "Numero de palavras: "countWords;
+  print "Número de palavras: "countWords;
   printf "\\n"
   print "Número de palavras diferentes: "length(tabelaOcorrencias);
   printf "\\n"

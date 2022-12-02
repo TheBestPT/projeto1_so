@@ -1,6 +1,6 @@
 Número de caracteres: 12098425  
 Número de linhas: 2093  
-Numero de palavras: 1985088 
+Número de palavras: 1985088 
 Número de palavras diferentes: 85480 
 Quociente entre o total de palavras diferentes e o total de palavras: 0.0430611 
 Número de frases: 77629 
